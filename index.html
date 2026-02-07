@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>you've got mail</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+        <div class="frame" id="frame">
+  <img src="show.jpeg" class="img img-a">
+  <img src="hide.jpeg" class="img img-b">
+</div>
+
+<script>
+  document.getElementById('frame').addEventListener('click', function () {
+    this.classList.toggle('active');
+  });
+</script>
+
+
+</body>
+</html>
